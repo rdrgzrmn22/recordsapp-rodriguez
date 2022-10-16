@@ -1,0 +1,29 @@
+tr:nth-child(even) {
+  background-color: #dedee2;
+}
+.btn {
+  background-color: #007bff;
+  color: white;
+}
+
+thead > tr > td {
+  color: rgb(186, 186, 186);
+  font-size: small;
+}
+
+.officehead {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.officehead .info-side {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.officehead .button-side {
+  flex: 1;
+}
